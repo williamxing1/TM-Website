@@ -14,6 +14,7 @@ const cost1 = document.getElementById("cost1");
 const cost2 = document.getElementById("cost2");
 const lunch = document.getElementById('lunch');
 const requirement = document.getElementById("requirement");
+const image = document.getElementById("camp_image");
 
 morningButton.addEventListener('click', () => {
     morningButton.classList.add('morning_active');
@@ -30,6 +31,7 @@ morningButton.addEventListener('click', () => {
     cost2.style.display = "none";
     lunch.style.display = "block";
     requirement.style.display = "none";
+    camp_image.src = "Images/camp_1.jpg";
 })
 
 afternoonButton.addEventListener('click', () => {
@@ -49,6 +51,7 @@ afternoonButton.addEventListener('click', () => {
     cost2.style.display = "none";
     lunch.style.display = "none";
     requirement.style.display = "none";
+    camp_image.src = "Images/camp_2.jpg";
 })
 
 competitiveGroupButton.addEventListener('click', () => {
@@ -68,4 +71,5 @@ competitiveGroupButton.addEventListener('click', () => {
     cost2.style.display = "none";
     lunch.style.display = "none";
     requirement.style.display = "block";
+    camp_image.src = "Images/camp_3.jpg";
 })

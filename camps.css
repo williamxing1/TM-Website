@@ -154,3 +154,22 @@ h1 {
         font-size: 1.2rem;
     }
 }
+/* Gallery */
+.gallery-title {
+    margin: 50px 0;
+}
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 16px;
+    padding: 20px 100px;
+    margin: auto;
+}
+  
+.image-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    display: block;
+}  
